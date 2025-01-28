@@ -245,7 +245,7 @@ def login_page() -> None:
         logger.info("Renderizando formulário de login")
         
         with st.form("login_form", clear_on_submit=True):
-            email = st.text_input("Email", placeholder="Digite seu email")
+            email = st.text_input("Usuário", placeholder="Digite seu usuário")
             senha = st.text_input("Senha", type="password", placeholder="Digite sua senha")
             submit = st.form_submit_button("Entrar")
             
@@ -284,7 +284,7 @@ def render_sidebar(pages: Dict[str, Any]) -> None:
     try:
         st.sidebar.markdown("""
             <div style='margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid #e5e7eb;'>
-                <h2 style='font-size: 1.25rem; margin-bottom: 0;'>🚗 Dashboard</h2>
+                <h2 style='font-size: 1.25rem; margin-bottom: 0;'>Dashboard</h2>
             </div>
         """, unsafe_allow_html=True)
         

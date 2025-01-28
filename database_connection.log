@@ -1,0 +1,85 @@
+2025-01-17 10:02:51,096 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:02:51,398 - ERROR - Erro inesperado: Failed raising error.
+2025-01-17 10:05:02,733 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:05:03,032 - ERROR - Erro inesperado: Failed raising error.
+Traceback (most recent call last):
+  File "c:\Users\Graúna Motos\Documents\dashboards\test.py", line 27, in test_connection
+    conn = mysql.connector.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 151, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\abstracts.py", line 1426, in connect
+    self._open_connection()
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 335, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+RuntimeError: Failed raising error.
+2025-01-17 10:10:09,296 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:10:09,613 - ERROR - Erro inesperado: Failed raising error.
+Traceback (most recent call last):
+  File "c:\Users\Graúna Motos\Documents\dashboards\test.py", line 27, in test_connection
+    conn = mysql.connector.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 151, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\abstracts.py", line 1426, in connect
+    self._open_connection()
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 335, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+RuntimeError: Failed raising error.
+2025-01-17 10:11:03,146 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:11:03,453 - ERROR - Erro inesperado: Failed raising error.
+Traceback (most recent call last):
+  File "c:\Users\Graúna Motos\Documents\dashboards\test.py", line 27, in test_connection
+    conn = mysql.connector.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 151, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\abstracts.py", line 1426, in connect
+    self._open_connection()
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 335, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+RuntimeError: Failed raising error.
+2025-01-17 10:12:30,606 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:12:30,909 - ERROR - Erro inesperado: Failed raising error.
+Traceback (most recent call last):
+  File "c:\Users\Graúna Motos\Documents\dashboards\test.py", line 27, in test_connection
+    conn = mysql.connector.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 151, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\abstracts.py", line 1426, in connect
+    self._open_connection()
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 335, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+RuntimeError: Failed raising error.
+2025-01-17 10:13:31,935 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:13:32,234 - ERROR - Erro inesperado: Failed raising error.
+Traceback (most recent call last):
+  File "c:\Users\Graúna Motos\Documents\dashboards\test.py", line 27, in test_connection
+    conn = mysql.connector.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 151, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\abstracts.py", line 1426, in connect
+    self._open_connection()
+  File "C:\Users\Graúna Motos\Documents\dashboards\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 335, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+RuntimeError: Failed raising error.
+2025-01-17 10:14:57,260 - INFO - Tentando conectar ao banco de dados...
+2025-01-17 10:14:57,555 - INFO - Conexão bem sucedida! Versão do servidor: 5.7.42
+2025-01-17 10:14:57,557 - INFO - Conexão fechada.

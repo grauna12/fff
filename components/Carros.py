@@ -7,7 +7,7 @@ def Carros():
     if StateManager.get_state('logado'):
         render_dashboard(
             title="Dashboard - Carros",
-            power_bi_url="https://app.powerbi.com/view?r=eyJrIjoiNTNiMzRjMWUtZjE4Mi00ZWJhLWIzNzUtNzAwZGY0NDlhM2NmIiwidCI6IjA5Y2RmOWY2LTcyOGEtNDIyMi1hOGUwLTllNTBjMjI0ZTRjNSJ9"
+            power_bi_url="https://app.powerbi.com/view?r=eyJrIjoiOTlkMDY4NGMtNTRhMi00ZGNmLTg4MWMtYTFhYTc0YmU4NmNiIiwidCI6ImNjNDUwYmIwLTAxODktNDU0YS1hNWNhLWRjMjQ1ZWFiMzRkZCJ9"
         )
     else:
         StateManager.set_state('selected_page', 'Login')
